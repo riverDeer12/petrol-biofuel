@@ -99,24 +99,24 @@
  * ------------------------------------------------------------------- */
 :root {
 
-    /* color-1(#4abe7f)
+    /* color-1(#2697c0)
      * color-2(#4f4f4f)
      */
-    --color-1: hsla(147, 47%, 52%, 1);
+    --color-1: hsla(196, 67%, 45%, 1);
     --color-2: hsla(0, 0%, 31%, 1);
 
     /* theme color variations */
-    --color-1-lightest: hsla(147, 47%, 82%, 1);
-    --color-1-lighter: hsla(147, 47%, 72%, 1);
-    --color-1-light: hsla(147, 47%, 62%, 1);
-    --color-1-dark: hsla(147, 47%, 42%, 1);
-    --color-1-darker: hsla(147, 47%, 32%, 1);
-    --color-1-darkest: hsla(147, 47%, 22%, 1);
-    --color-2-lightest: hsla(147, 52%, 77%, 1);
-    --color-2-lighter: hsla(147, 52%, 67%, 1);
-    --color-2-light: hsla(147, 52%, 57%, 1);
-    --color-2-dark: hsla(147, 52%, 47%, 1);
-    --color-2-darker: hsla(147, 52%, 1%, 1);
+    --color-1-lightest: hsla(196, 67%, 75%, 1);
+    --color-1-lighter: hsla(196, 67%, 65%, 1);
+    --color-1-light: hsla(196, 67%, 55%, 1);
+    --color-1-dark: hsla(196, 67%, 45%, 1);
+    --color-1-darker: hsla(196, 67%, 35%, 1);
+    --color-1-darkest: hsla(196, 67%, 25%, 1);
+    --color-2-lightest: hsla(196, 72%, 95%, 1);
+    --color-2-lighter: hsla(196, 72%, 85%, 1);
+    --color-2-light: hsla(196, 72%, 75%, 1);
+    --color-2-dark: hsla(196, 72%, 65%, 1);
+    --color-2-darker: hsla(196, 72%, 1%, 1);
 
     /* feedback colors
      * color-error(#ffd1d2), color-success(#c8e675), 
@@ -2918,7 +2918,7 @@ img.u-pull-left {
 .list-block__icon img {
     margin: 0;
     height: 30px;
-    width: 30px;
+    width: 25px;
 }
 
 .list-block__icon svg path,
@@ -3030,7 +3030,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-header {
     --header-height: 80px;
-    --logo-width: 200px;
+    --logo-width: 170px;
     z-index: 100;
     background-color: transparent;
     height: var(--header-height);
@@ -3271,7 +3271,7 @@ img.u-pull-left {
 
 @media screen and (max-width: 800px) {
     .s-header {
-        --logo-width: 200px;
+        --logo-width: 170px;
         top: var(--vspace-0_25);
     }
 
